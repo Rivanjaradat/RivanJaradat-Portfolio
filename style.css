@@ -433,3 +433,13 @@ gap:1.5rem;
     top:-1.8rem;
    
 }
+
+@media (max-width: 768px) {
+    .book .book-page{
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
