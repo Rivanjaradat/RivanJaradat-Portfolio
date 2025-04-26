@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Covers -->
+        <div class="cover cover-left"></div>
+        <div class="cover cover-right  turn"></div>
+
+        <!-- Book -->
+        <div class="book">
+            
+            <!-- Profile Page (Page Left) -->
+            <div class="book-page page-left">
+                <div class="profile-page">
+                    <img src="profile-img.jpg" alt="Profile Image">
+                    <h1>Rivan Jaradat</h1>
+                    <h3>Web Developer</h3>
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/rivan-jaradat/"><i class='bx bxl-linkedin-square'></i></a>
+                      
+                        <a href="https://github.com/Rivanjaradat"><i class='bx bxl-github'></i></a>
+                    </div>
+                    <p>
+                        Final-year Computer Engineering student – AI Track 🤖
+                        <hr>
+                        💡 Passionate about Machine Learning, Computer Vision
+                        <hr>
+                        🖥️ Skilled in building full-stack applications using React & .NET
+                        <hr>
+                        🎓 Currently enrolled in the Udacity Data Analyst Nanodegree
+                    </p>
+                    <div class="btn-box">
+                        <a href="https://drive.google.com/file/d/1QMYsKsk6MFf13deE-mbzTOWDycK3TtpT/view" class="btn">Download CV</a>
+                        <a href="#" class="btn contact-me">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Work Experience Page (Page Right) -->
+            <div class="book-page page-right turn" id="turn-1">
+                <div class="page-front">
+                    <h1 class="title">Work Experience</h1>
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar'></i>July/2024 - September/2024</span>
+                            <h3>React Native Developer Intern</h3>
+                            <p>
+                                <ul>
+                                    <li>Developed mobile app interfaces using React Native</li>
+                                    <li>Implemented navigation and state management with React Navigation and Redux</li>
+                                    <li>Used Expo for rapid development and testing</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                    <span class="number-page">1</span>
+                    <span class="nextprev-btn" data-page="turn-1"><i class='bx bx-chevron-right'></i></span>
+                </div>
+
+                <!-- Education Page (Back Page) -->
+                <div class="page-back">
+                    <h1 class="title">Education</h1>
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar'></i>2020-2025</span>
+                            <h3>Birzeit University - Ramallah, Palestine</h3>
+                            <p>Bachelor’s Degree – Computer Engineering</p>
+                        </div>
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar'></i>02/2025 - 06/2025</span>
+                            <h3>Data Analyst Nanodegree – Udacity</h3>
+                        </div>
+                    </div>
+                    <span class="number-page">2</span>
+                    <span class="nextprev-btn back" data-page="turn-1"><i class='bx bx-chevron-left'></i></span>
+                </div>
+            </div>
+
+            <!-- Services Page (Page Right) -->
+            <div class="book-page page-right turn" id="turn-2">
+                <div class="page-front">
+                    <h1 class="title">Services</h1>
+                    <div class="services-box">
+                        <div class="services-content">
+                            <i class='bx bx-code-alt'></i>
+                            <h3>Web Development</h3>
+                            <p>Building responsive and user-friendly websites.</p>
+                            <a href="" class="btn">Read More</a>
+                        </div>
+                        <div class="services-content">
+                            <i class='bx bx-data'></i>
+                            <h3>Data Analysis</h3>
+                            <p>Analyzing data to extract insights and support decision-making.</p>
+                            <a href="" class="btn">Read More</a>
+                        </div>
+                        <div class="services-content">
+                            <i class='bx bx-brain'></i>
+                            <h3>Machine Learning</h3>
+                            <p>Implementing machine learning algorithms for predictive modeling.</p>
+                            <a href="" class="btn">Read More</a>
+                        </div>
+                    </div>
+                    <span class="number-page">3</span>
+                    <span class="nextprev-btn" data-page="turn-2"><i class='bx bx-chevron-right'></i></span>
+                </div>
+
+                <!-- Skills Page (Back Page) -->
+                <div class="page-back">
+                    <h1 class="title">My Skills</h1>
+                    <div class="skills-box">
+                        <div class="skills-content">
+                            <h3>Front-End</h3>
+                            <div class="content">
+                                <span><i class='bx bxl-html5'></i> HTML5</span>
+                                <span><i class='bx bxl-css3'></i> CSS3</span>
+                                <span><i class='bx bxl-javascript'></i> JavaScript</span>
+                                <span><i class='bx bxl-react'></i> React</span>
+                                <span><i class='bx bxl-bootstrap'></i> Bootstrap</span>
+                            </div>
+                        </div>
+                        <div class="skills-content">
+                            <h3>Back-End</h3>
+                            <div class="content">
+                                <span>ASP.NET (MVC & Web API)</span>
+                                <span>C#</span>
+                                <span>Entity Framework</span>
+                                <span>SQL & SQL Server</span>
+                                <span>RESTful API</span>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="number-page">4</span>
+                    <span class="nextprev-btn back" data-page="turn-2"><i class='bx bx-chevron-left'></i></span>
+                </div>
+            </div>
+
+            <!-- Projects Page (Page Right) -->
+            <div class="book-page page-right turn" id="turn-3">
+                <div class="page-front">
+                    <h1 class="title">Projects</h1>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <h3>E-Commerce Backend API:</h3>
+                            <p>Built a scalable e-commerce API using ASP.NET Core and Onion Architecture. Features include
+                                JWT-based authentication, product & order management, and clean architecture with EF Core,
+                                Unit of Work, and Repository Pattern.</p>
+                            <a href="https://github.com/Rivanjaradat/ASP.NET-Ecommerce-Project" target="_blank" class="btn">View on GitHub</a>
+                        </div>
+                        <div class="project-card">
+                            <h3>Tasty Recipes API</h3>
+                            <p>Developed a recipe management system using ASP.NET Core Web API and Onion Architecture.
+                                Implemented JWT authentication, recipe & category CRUD, and user comments with clean,
+                                modular architecture.</p>
+                            <a href="https://github.com/Rivanjaradat/TastyRecipes_Asp.NET-project" target="_blank" class="btn">View on GitHub</a>
+                        </div>
+                    </div>
+                    <span class="number-page">5</span>
+                    <span class="nextprev-btn" data-page="turn-3"><i class='bx bx-chevron-right'></i></span>
+            
+                </div>
+
+                <!-- Projects Page (Back Page) -->
+                <div class="page-back">
+                    <h1 class="title">Contact Me</h1>
+                    <div class="contact-box">
+                        <form   action="https://formspree.io/f/xldbdlnl"
+                        method="POST">
+                           
+                            <input type="email" class="field" placeholder="Email" name="email" required>
+                            <textarea nname="message" id="" cols="30" rows="10" class="field" placeholder="Message" required></textarea>
+                            <input type="submit" value="Send Message" class="btn">
+                        </form>
+                    </div>
+                    <span class="number-page">6</span>
+                    <span class="nextprev-btn back" data-page="turn-3"><i class='bx bx-chevron-left'></i></span>
+                   
+                    <a href="#" class="back-profile">
+                        <p>Profile</p>
+                        <i class='bx bxs-user'></i>
+                    </a>
+                    
+                </div>
+            </div>
+
+          
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
