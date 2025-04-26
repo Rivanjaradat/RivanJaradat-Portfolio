@@ -444,4 +444,10 @@ gap:1.5rem;
         display: flex;
         flex-direction: column;
     }
-}
+    .services-box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap:nowrap;
+        
+        overflow: hidden
+    }}
